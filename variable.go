@@ -12,11 +12,12 @@ func main() {
 	fmt.Printf("I'm %s,i am %d years old\n", name, age) //%s 为字符格式化输出，%d 为数字格式化输出
 
 	//Go中常见的数据类型如下
-	var str string = "This is one test!"
+	var str string = "This is one test!  "
 	var int_a int
 	var bool_flag bool
 	var byte_flag byte
 	var float_a float64 = 7.6665
 
 	fmt.Printf("%s,%v,%v,%f\n", str, int_a, bool_flag, byte_flag, float_a)
+
 }
